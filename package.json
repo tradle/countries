@@ -1,0 +1,17 @@
+{
+  "name": "@tradle/countries",
+  "version": "1.0.0",
+  "description": "basic info per country, such as 3-letter code, calling codes, corresponding AWS region",
+  "main": "countries.js",
+  "scripts": {
+    "gen": "node gen.js > countries.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-stringify": "^1.6.0",
+    "node-fetch": "^2.2.1",
+    "world-countries": "^2.0.0"
+  }
+}
